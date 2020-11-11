@@ -1,0 +1,34 @@
+// Place all the styles related to the articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+// @import "bootstrap/scss/bootstrap";
+
+
+
+.link-to,
+button {
+  a,
+  a:hover {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+.container.article {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 21px;
+
+  button {
+    width: 40%;
+    /* text-align: center; */
+    /* margin: 8px auto; */
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 8px;
+  }
+}
+
+.container {
+  width: 50%;
+}
